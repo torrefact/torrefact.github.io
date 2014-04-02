@@ -16,6 +16,8 @@ section {
 	margin-left:-100px;
 	top:50%;
 	left:50%;
+
+	@include text-shadow(0 0 8px 0 rgba(black, 0.5));
 	
 	h1 {
 		font-size: 2em;
@@ -28,6 +30,4 @@ section {
 		@extend %light;
 		@extend %italic;
 	}
-
-
 }

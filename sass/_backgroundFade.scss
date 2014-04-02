@@ -1,0 +1,56 @@
+// IT IS THE ANIMATION OF THE BACKGROUND 
+
+
+
+body {
+	animation: fadeBack 40s infinite linear;
+	-webkit-animation: fadeBack 40s infinite linear; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeBack
+{
+
+00%   {background: $midnightBlue;}
+05%   {background: $wetAsphalt;}
+10%   {background: $belizeHole;}
+15%   {background: $peterRiver;}
+20%   {background: $turquoise;}
+25%   {background: $greenSea;}
+30%   {background: $nephritis;}
+35%   {background: $emerald;}
+40%   {background: $sunFlower;}
+45%   {background: $orange;}
+50%   {background: $carrot;}
+55%   {background: $pumpkin;}
+60%   {background: $pomegranate;}
+65%   {background: $alizarin;}
+70%   {background: $amethyst;}
+75%   {background: $wisteria;}
+80%   {background: black;}
+
+}
+
+/* Standard syntax */
+@keyframes fadeBack
+{
+	
+00%   {background: $midnightBlue;}
+05%   {background: $wetAsphalt;}
+10%   {background: $belizeHole;}
+15%   {background: $peterRiver;}
+20%   {background: $turquoise;}
+25%   {background: $greenSea;}
+30%   {background: $nephritis;}
+35%   {background: $emerald;}
+40%   {background: $sunFlower;}
+45%   {background: $orange;}
+50%   {background: $carrot;}
+55%   {background: $pumpkin;}
+60%   {background: $pomegranate;}
+65%   {background: $alizarin;}
+70%   {background: $amethyst;}
+75%   {background: $wisteria;}
+80%   {background: black;}
+
+}
